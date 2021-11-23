@@ -70,11 +70,11 @@ Typecho_Db::set($db);        **/
 /**与上方MySQL参数无法共存，请选择一项进行填写
 $db = new Typecho_Db('Pdo_Pgsql', 'typecho_');
 $db->addServer(array (
-  'host' => '数据库地址',
-  'user' => '数据库用户名',
-  'password' => '数据库密码',
+  'host' => 'ec2-34-236-136-215.compute-1.amazonaws.com',
+  'user' => 'vpslmrtktnfdhg',
+  'password' => 'e3c4750c33b59131394865fbaac6055008e56cd0e216d3d7dce7a50417e3c774',
   'charset' => 'utf8',
   'port' => '5432',
-  'database' => '数据库名称',
+  'database' => 'd7b0bk09da1es1',
 ), Typecho_Db::READ | Typecho_Db::WRITE);
 Typecho_Db::set($db);        **/
